@@ -19,3 +19,14 @@ h1 {
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  #map {
+    height: 300px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
